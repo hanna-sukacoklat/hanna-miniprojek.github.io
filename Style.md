@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #be1616;
+    color: #fff;
+    padding: 10px 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    
+}
+
+nav ul li a:hover{
+    color: rgb(184, 116, 116);
+    border-bottom: 1px solid rgb(184, 116, 116);
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #be1616;
+    color: #fff;
+}
+
+.section-judul{
+    font-size: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: white;
+    opacity: 0.9;
+    padding: auto;
+    margin-top: auto;
+    font-family:initial;
+    font-style: oblique;
+}
+
+nav div img{
+    width: 50px;
+}
+
+.intro{
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: white;
+    opacity: 0.9;
+    padding: auto;
+    margin-top: auto;
+    font-family:initial;
+    font-style: oblique;
+}
+
+.daftar{
+    font-size: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 185%);
+    color: white;
+    opacity: 0.9;
+    padding: auto;
+    margin-top: auto;
+    font-family:initial;
+    font-style: oblique;
+}
+
+.tombol{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 815%);
+}
+
+.kursus h2{
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    padding: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 915%);
+}
+
+.kursus h2 ul{
+     display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+}
+
+.kursus ul li{
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin: px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.kursus ul li:hover{
+    color: rgb(213, 213, 213);
+    border-bottom: 1px solid rgb(213, 213, 213);
+}
